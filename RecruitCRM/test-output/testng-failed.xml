@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="duration" value="This Year"/>
+    <parameter name="number" value="1234567890"/>
+    <parameter name="pass" value="Naren0150"/>
+    <parameter name="city" value="Madurai"/>
+    <parameter name="organization" value="Sinapse Software"/>
+    <parameter name="language" value="Tamil"/>
+    <parameter name="maiId" value="ponnagarajchitrambalam@gmail.com"/>
+    <classes>
+      <class name="org.test.RecruitCRM">
+        <methods>
+          <include name="extent_Report"/>
+          <include name="tasks_And_Appointments"/>
+          <include name="screenShot_Extent_Report"/>
+          <include name="quit_The_Program"/>
+          <include name="crendentials"/>
+        </methods>
+      </class> <!-- org.test.RecruitCRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
